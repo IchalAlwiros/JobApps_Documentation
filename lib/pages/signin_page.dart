@@ -13,6 +13,7 @@ class _SignInPageState extends State<SignInPage> {
   bool _isObscure = true;
 
   TextEditingController emailController = TextEditingController(text: '');
+  
 
   @override
   Widget build(BuildContext context) {
@@ -176,7 +177,7 @@ class _SignInPageState extends State<SignInPage> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => SignUpPage(),
+                              builder: (context) => SignUpPages(),
                             ),
                           );
                         },

@@ -1,6 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+Color primaryColor = Color(0xffFFA801);
+Color wrongColor = Color(0xffFD4F56);
+
+const double defaultMargin = 24.0;
+
+TextStyle wrongTextStyle = GoogleFonts.poppins(
+  color: wrongColor
+);
+
+TextStyle orangeTextStyle = GoogleFonts.poppins(
+  color: primaryColor,
+);
+
 //Splash Screnn TextStyle
 TextStyle splashTextStyle = GoogleFonts.poppins(
   color: Color(0xffFFFFFF),

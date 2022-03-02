@@ -4,12 +4,12 @@ import 'package:job_apps/pages/home_page.dart';
 import 'package:job_apps/pages/signin_page.dart';
 import 'package:job_apps/theme.dart';
 
-class SignUpPage extends StatefulWidget {
+class SignUpPages extends StatefulWidget {
   @override
-  _SignUpPageState createState() => _SignUpPageState();
+  _SignUpPagesState createState() => _SignUpPagesState();
 }
 
-class _SignUpPageState extends State<SignUpPage> {
+class _SignUpPagesState extends State<SignUpPages> {
   bool isMailValid = true;
   bool isUpload = false;
   bool _isObscure = true;
